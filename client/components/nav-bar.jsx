@@ -8,16 +8,24 @@ export default function NavBar(props) {
         logo
       </Col>
       <Col>
-        <i className='fa-solid fa-envelope'/>
+        <a href="mailto: epark215@gmail.com">
+          <i className='fa-solid fa-envelope'/>
+        </a>
       </Col>
       <Col>
-        <i className='fa-brands fa-linkedin'/>
+        <a href='https://www.linkedin.com/in/eugenepark215/'>
+          <i className='fa-brands fa-linkedin' />
+        </a>
       </Col>
       <Col>
-        <i className='fa-brands fa-github'/>
+        <a href='https://github.com/Eugenepark215'>
+          <i className='fa-brands fa-github' />
+        </a>
       </Col>
       <Col>
-        <i className='fa-solid fa-file'/>
+        <a href='https://drive.google.com/file/d/1194BHw1F1sPn0Ne4dd5wa-MxWTPiHhu_/view?usp=share_link'>
+          <i className='fa-solid fa-file'/>
+        </a>
       </Col>
     </Row>
   );
