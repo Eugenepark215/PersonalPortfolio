@@ -4,20 +4,20 @@ import { Row, Col } from 'react-bootstrap';
 export default function NavBar(props) {
   return (
     <Row>
-      <Col>
+      <Col className='col-8'>
         logo
       </Col>
       <Col>
-        email
+        <i className='fa-solid fa-envelope'/>
       </Col>
       <Col>
-        linkedin
+        <i className='fa-brands fa-linkedin'/>
       </Col>
       <Col>
-        github
+        <i className='fa-brands fa-github'/>
       </Col>
       <Col>
-        resume
+        <i className='fa-solid fa-file'/>
       </Col>
     </Row>
   );
