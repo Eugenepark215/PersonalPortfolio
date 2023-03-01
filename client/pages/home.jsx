@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 export default function Home(props) {
   return (
-    <Container fluid className='container'>
+    <Container fluid className='g-0'>
       <NavBar/>
       <Row className="justify-content-md-center">
         <Col className="col-6">

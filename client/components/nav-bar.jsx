@@ -3,8 +3,8 @@ import { Container, Col, Nav, Navbar } from 'react-bootstrap';
 
 export default function NavBar(props) {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
+    <Navbar expand="lg">
+      <Container fluid>
         <Col className='col-6'>
           <Navbar.Brand href="#home">
             LOGO-EP
