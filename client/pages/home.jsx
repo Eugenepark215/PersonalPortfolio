@@ -4,9 +4,9 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 export default function Home(props) {
   return (
-    <Container className='text-center'>
+    <Container fluid className='g-0'>
       <NavBar/>
-      <Row className="justify-content-md-center">
+      <Row className="sage-background justify-content-md-center">
         <Col className="col-6">
           Software Developer
         </Col>
