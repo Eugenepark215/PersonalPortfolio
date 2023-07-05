@@ -5,9 +5,9 @@ export default function NavBar(props) {
   return (
     <Navbar>
       <Container fluid className='g-5'>
-        <Col className='col-6'>
-          <Navbar.Brand href="#home" className='font-rubik'>
-            <img src="/android-chrome-512x512.png" width='50' height='50' alt='logo' className='align-middle' />&nbsp; &nbsp; EUGENE PARK
+        <Col className='col-6 display-flex'>
+          <Navbar.Brand href="#home" className='name font-rubik'>
+            EUGENE PARK
           </Navbar.Brand>
         </Col>
         <Nav className='ms-auto' id='icon-container'>

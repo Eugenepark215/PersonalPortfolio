@@ -13,3 +13,30 @@
 .sage-background {
   background-color: rgb(159, 183, 185) !important;
 }
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+}
+
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .icon {
+    font-size: x-large;
+  }
+
+  .nav-link {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .name {
+    font-size: small;
+  }
+}
