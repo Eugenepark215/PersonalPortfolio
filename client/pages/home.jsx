@@ -1,19 +1,13 @@
 import React from 'react';
 import NavBar from '../components/nav-bar.jsx';
+import Intro from '../components/intro.jsx';
 import { Col, Container, Row } from 'react-bootstrap';
 
 export default function Home(props) {
   return (
     <Container fluid className='g-0'>
       <NavBar/>
-      <Row className="sage-background justify-content-md-center">
-        <Col className="col-6">
-          Software Developer
-        </Col>
-        <Col className="col-6">
-          Picture - short intro
-        </Col>
-      </Row>
+      <Intro/>
       <Row>
         <Col className='col-6'>
           1st project card

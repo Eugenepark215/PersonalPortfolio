@@ -15,10 +15,11 @@
 }
 
 .name {
-  display: flex;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
   align-items: center;
-  justify-content: center;
-  font-size: larger;
 }
 
 .nav-link {
@@ -37,6 +38,11 @@
   }
 
   .name {
-    font-size: small;
+    font-size: medium;
   }
+}
+
+.intro {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }

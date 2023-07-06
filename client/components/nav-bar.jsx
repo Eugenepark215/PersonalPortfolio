@@ -6,8 +6,8 @@ export default function NavBar(props) {
     <Navbar>
       <Container fluid className='g-5'>
         <Col className='col-6 display-flex'>
-          <Navbar.Brand href="#home" className='name font-rubik'>
-            EUGENE PARK
+          <Navbar.Brand href="#home">
+            <h1 className='name font-rubik'>EUGENE PARK</h1>
           </Navbar.Brand>
         </Col>
         <Nav className='ms-auto' id='icon-container'>
