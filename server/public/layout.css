@@ -2,6 +2,8 @@
   display: flex;
 }
 
-.head-shot {
-  width: 20rem;
+.intro-pic {
+  height: 15rem;
+  align-self: center;
+  border-radius: 15%;
 }

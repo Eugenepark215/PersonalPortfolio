@@ -3,11 +3,11 @@ import { Container, Col, Nav, Navbar } from 'react-bootstrap';
 
 export default function NavBar(props) {
   return (
-    <Navbar>
+    <Navbar className='sage-background'>
       <Container fluid className='g-5'>
         <Col className='col-6 display-flex'>
           <Navbar.Brand href="#home">
-            <h1 className='name font-rubik'>EUGENE PARK</h1>
+            <h1 className='name font-rubik gray-font'>EUGNE PARK</h1>
           </Navbar.Brand>
         </Col>
         <Nav className='ms-auto' id='icon-container'>
