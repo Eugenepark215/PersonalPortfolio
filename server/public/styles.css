@@ -27,6 +27,33 @@
   margin-right: 10px;
 }
 
+.intro {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  justify-content: center;
+}
+
+.intro-pic {
+  height: 15rem;
+  align-self: center;
+  border-radius: 15%;
+}
+
+.intro-text {
+  align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+  .intro-pic {
+    height: 10rem;
+  }
+
+  .intro {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .icon {
     font-size: x-large;
@@ -38,11 +65,16 @@
   }
 
   .name {
-    font-size: medium;
+    font-size: large;
   }
-}
 
-.intro {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  .intro {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: space-around;
+  }
+
+  p {
+    font-size: small;
+  }
 }

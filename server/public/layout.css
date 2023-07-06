@@ -1,9 +1,3 @@
 .display-flex {
   display: flex;
 }
-
-.intro-pic {
-  height: 15rem;
-  align-self: center;
-  border-radius: 15%;
-}
