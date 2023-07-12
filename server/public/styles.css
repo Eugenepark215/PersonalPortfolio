@@ -7,9 +7,79 @@
 }
 
 .gray-font {
-  color: rgb(82, 83, 80) !important;
+  color: rgb(82, 83, 80);
+}
+
+.name {
+  margin-bottom: 0;
+}
+
+.icon:hover,
+.name:hover {
+  color: white;
 }
 
 .sage-background {
   background-color: rgb(159, 183, 185) !important;
+}
+
+.navbar-brand {
+  align-items: center;
+}
+
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.intro {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  justify-content: center;
+}
+
+.intro-pic {
+  height: 15rem;
+  align-self: center;
+  border-radius: 15%;
+}
+
+.intro-text {
+  align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+  .intro-pic {
+    height: 10rem;
+  }
+
+  .intro {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .icon {
+    font-size: x-large;
+  }
+
+  .nav-link {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .name {
+    font-size: large;
+  }
+
+  .intro {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: space-around;
+  }
+
+  p {
+    font-size: small;
+  }
 }
