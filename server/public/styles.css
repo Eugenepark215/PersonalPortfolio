@@ -7,15 +7,20 @@
 }
 
 .gray-font {
-  color: rgb(82, 83, 80) !important;
-}
-
-.sage-background {
-  background-color: rgb(159, 183, 185) !important;
+  color: rgb(82, 83, 80);
 }
 
 .name {
   margin-bottom: 0;
+}
+
+.icon:hover,
+.name:hover {
+  color: white;
+}
+
+.sage-background {
+  background-color: rgb(159, 183, 185) !important;
 }
 
 .navbar-brand {
